@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.border { border:1px solid #CCCCCC; margin-top:30px;}
+.back_color { background-image:url(images/bg.jpg);}
+.form { margin:15px;}
+.qveda_mxare { margin-top:15px;}
+.satauri { margin-top:30px;}
+.satauri_4 { margin-top:70px;}
+.stili_1 { color:#009966;}
+.still_3 {color:#666666; }
+.stili_4 { color:#666666; text-decoration:none; margin-top:10px; margin-left:25px;}
+.cashla { font-size:14px; color:#FF0000; text-decoration: none; }
+.cxrili { color:#FFFFFF; background-color:#6666CC;}
+.nacerze_foni { background-color:#CCCCCC;}
+.print_font { font-size:16px;}
+.damateba {border-radius:5px; border:1px solid #666666; background-color:#CCCCCC; font-size:9px;}
+.archeva  { background-color:#FFFFFF; border-radius:5px; border:1px solid #666666; font-size:9px;}
+.zoma_10 { font-size:10px; color:#FFFFFF;}
+.damatebis_forma { border-radius:4px; border:1px solid #CCCCCC; background-color:#FFFFFF; color:#666666; font-size:13px; margin-left:5px; margin-right:5px;}
+.klientebi { color:#333333; font-size:12px; background-color:#CCCCCC;}
+.gamosvla { width:30px; height:20px; }
+.gilaki {border-radius:5px; border:1px solid #CCCCCC; font-size:9px; color:#666666; float:left;}
+.cashla {text-decoration:none; color:#666666; font-size:12px;}
+.pagination { border-radius:4px; border:1px solid #CCCCCC; background-color:#FFFFFF; color:#666666; font-size:14px; width:873px; margin:auto;}
+a:link {
+    color:#666666;
+	text-decoration: none;
+}
+a:visited {
+ color:#666666;
+	text-decoration: none;
+}
+a:hover {
+    color:#006666;
+	text-decoration: none;
+}
+a:active {
+ color:#666666;
+	text-decoration: none;
+}
+
+
+/*aq dasasruli mausis mitanaze gamodis teqsti*/
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: #FFFF99;
+border:1px solid #999999;
+border-radius:4px;
+visibility: hidden;
+color: black;
+text-decoration: none;
+width:300px;
+margin-top:15px;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 0;
+left: 40px; /*position where enlarged image should offset horizontally */
+
+}
+/*aq dasasruli*/
+
+
